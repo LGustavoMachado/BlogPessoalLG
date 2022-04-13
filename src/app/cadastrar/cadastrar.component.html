@@ -1,0 +1,37 @@
+<div id="img-bg">
+    <div id="back">
+    <div class="box">
+        <div class="form">
+            <h1 class="text-center text-white">Cadastro</h1>
+            <div class="form-group">
+                <input [(ngModel)]='usuarioModel.nome' type="text" name="nome" id="nome" placeholder="Nome" >
+            </div>
+            <div class="form-group">
+                <input [(ngModel)]='usuarioModel.usuario' type="text" name="usuario" id="usuario" placeholder="Usuário">
+            </div>
+            <div class="form-group">
+                <input [(ngModel)]='usuarioModel.foto' type="text" name="foto" id="foto" placeholder="Link da Foto">
+            </div>
+            <div class="form-group">
+                <input (input)='confirmSenha($event)' type="password" name="senha" id="senha" placeholder="Senha">
+            </div>
+            <div class="form-group">
+                <input [(ngModel)]='usuarioModel.senha' type="password" name="confirmSenha" id="confirmSenha" placeholder="Confirmar Senha">
+            </div>
+
+            <div class="form-group">
+                <select name="tipo" id="tipo" (change)='tipoUser($event)'> <!-- pega o valor do value-->
+                    <option value="">Selecione um tipo de usuário:</option>
+                    <option value="normal">Normal</option>
+                    <option value="adm">Administrador</option>
+                </select>
+            </div>
+            <hr class="mt-5 mb-4 bg-white">
+            <div class="d-flex justify-content-center pt-4">
+                <button routerLink="/entrar" type="submit" class="btn btn-secondary mr-4 px-4">Cancelar</button>
+                <button type="submit" class="btn btn-primary px-4" (click)='cadastrar()'>Cadastrar</button>
+            </div>
+        </div>
+            </div>
+    </div>
+</div>

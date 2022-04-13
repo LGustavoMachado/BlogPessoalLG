@@ -1,0 +1,11 @@
+.bg-inicio{
+    background: rgb(0,0,0);
+    background: linear-gradient(150deg, rgba(0,0,0,1) 0%, rgba(29,28,52,1) 37%, rgba(43,52,60,1) 70%);
+}
+
+.fs-54{
+    font-size: 54pt;
+}
+.fs-18{
+    font-size:  18pt;
+}
