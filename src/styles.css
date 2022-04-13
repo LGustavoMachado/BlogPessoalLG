@@ -3,4 +3,10 @@
 html
 {
     scroll-behavior: smooth;
+ 
+}
+
+body{
+    background: rgb(190,190,190);
+background: linear-gradient(150deg, rgba(190,190,190,1) 5%, rgba(132,134,143,1) 20%, rgba(182,182,182,1) 70%, rgba(166,161,161,1) 93%);
 }

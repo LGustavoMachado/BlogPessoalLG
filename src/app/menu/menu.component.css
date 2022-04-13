@@ -6,3 +6,16 @@
 a{
     cursor: pointer; /*O que é esse Cursos pointer*/
 }
+
+.cor-menu{
+    background-color: #808080;
+}
+.menu-letras{
+    font-size: 20px;
+    color: white !important;
+}
+.menu-letras2{
+    font-size: 20px;
+    color:white !important;
+    font-weight: 600;
+}
