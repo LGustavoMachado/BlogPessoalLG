@@ -1,27 +1,41 @@
-# BlogPessoalLG
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
+<h1 align= "center">BlogPessoalHageMotors</h1>
 
-## Development server
+<h3>Tecnologias Utilizadas no front-end</h3>
+<ul>
+  <li>Angular</li>
+  <li>Typescript</li>
+  <li>HTML5</li>
+  <li>CSS3</li>
+</ul>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<h3>Descrição do projeto</h3>
+<h6>O Projeto tem intuito de armazenar postagens e temas, sobre motos, vendas e encontros.</h6>
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+<h3>Login</h3>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+![image](https://user-images.githubusercontent.com/91089946/163262412-c1185124-1365-48a6-8fbc-47f2fbedd9e3.png)
 
-## Running unit tests
+<3>Cadastrar</h3>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![image](https://user-images.githubusercontent.com/91089946/163263839-99d4fec3-0a64-462b-86eb-ea6e0974cafa.png)
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+<h3>Feed</h3>
 
-## Further help
+![image](https://user-images.githubusercontent.com/91089946/163263539-6c0b4a56-cb4d-4d54-aa18-e6c0708614bb.png)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![image](https://user-images.githubusercontent.com/91089946/163262753-4823e4eb-f7cc-4c33-8de5-3b90dcbcdb59.png)
+
+<h3>Modal Postagens</h3>
+
+![image](https://user-images.githubusercontent.com/91089946/163262973-a3ae5af0-bfd7-4879-8b20-340a8b00b856.png)
+
+<h4 align="center"> 
+    :construction:  Projeto em construção  :construction:
+</h4>
+
+
+
